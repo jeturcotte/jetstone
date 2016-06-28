@@ -26,6 +26,7 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 
 ### tile 134 -> Large Grained Stone ...(*usually igneous intrusive*)
 
+* Bauxite ...**sedimentary** ...(*light warm tones with various nodules*)
 * Breccia ...**sedimentary** ...(*light with slightly darker nodules*)
 * Conglomerate ...**sedimentary** ...(*light with slightly darker nodules*)
 * Diorite ...**igneous intrusive** ...(*mostly light with some dark grains*)
@@ -33,8 +34,11 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 * Granite ...**igneous intrusive** ...(*mottling of dark and light*)
   * note: consider splitting this out into a few generic common varieties
 * Greywacke ...**sedimentary** ...(*bright bits stuck in dark sediment*)
+* Kimberlite ...**igneous intrusive** ...(*greyish green with large bright chunks**)
 * Pegmatite ...**igneous intrusive** ...(*mottling of dark and light*)
 * Peridotite ...**igneous intrusive** ...(*mostly dark grey and dark green*)
+* Puddingstone ...**sedimentary** ...(*dark and light often warm tones*)
+  * found only in conglomerates
 * Scoria ...**igneous extrusive** ...(*Dark Grey, Dark Red*)
 
 ### tile 135 -> Small Grained Stone ...(*usually igneous extrusive with some metamorphic*)
@@ -45,6 +49,7 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 * Chalk ...**sedimentary** ...(*very bright material with little texture*)
 * Dolostone ...**sedimentary** ...(*dark salmon to dark grey with little texture*)
 * Flint ...**sedimentary** ...(*greyish green quality form of chert*)
+* Kaolinite ...(*bright white to cream with little texture*)
 * Hornfels ...**metamorphic** ...(*very dark, almost no grains*)
 * Mudstone ...**metamorphic** ...(*middle tone warm greys with little texture*)
 * Obsidian ...**igneous extrusive** ...(*black, rarely with white striations, glassy*)
@@ -80,40 +85,70 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 
 * Azurite ...(*dark blue layered bulbs*)
 * Hematite ...(*dark grey or deep red, bulbous, sometimes shiny*)
+* Jet ...(*black and sometimes shiny*)
 * Malachite ...(*dark green and light green layered bulbs*)
+* Olivine ...(*light green mineral in massive bulbous form*)
+  * Note that *Peridot* is the same thing, but if finer quality
+* Pitchblende ...(*black massive or bulbous material of low lustre*)
+* Pyrolusite ...(*black or dark grey semilustrous bulbs and spears*)
 	
 ### tile 140 -> Square-Faced Minerals and Gems
 
-* Galena ...(*dark lustrous grey with sheer faces*)
 * Cobaltite ...(*bluish grey mineral of some luster with confused flat faces*)
+* Galena ...(*dark lustrous grey with sheer faces*)
+* Sylvite ...(*whitish yellowish cubic crystals*)
 
 ### tile 141 -> Triangle-Faced Minerals and Gems
 
 This includes octahedrons and tetrahedrons
 
 * Cassiterite ...(*light gray, lustrous with triangular faces*)
+* Chromite ...(*dark grey with occasional triangular faces*)
+* Ilmenite ...(*black with some lustrous triangular faces*)
+* Magnetite ...(*black with some lustrous triangular faces*)
 * Sphalerite ...(*dark gray or black with triangular faces*)
 * Tetrahedrite ...(*dark yellow or lustrious brown with triangular faces*)
 
 ### tile 142 -> Foliated, Tabular, or Plated Minerals and Gems
 
+* Bismuthinite ...(*plated or sheeted silvery grey*)
+* Graphite ...(*lustrous greys*)
+* Horn Silver ...(*grey to brown*)
+* Marcasite ...(*plated with a dark silvery yellow-brown color*)
+* Serpentine ...(*fibrous or plated middle to dark green*)
+* Talc ...(*bright white*)
+
 ### tile 169 -> Amorphous or Veined Minerals and Gems
 
 * Fire Opal ...(*bright yellow, orange, or red*)
 * Garnierite ...(*bright green mineral with little visible structure*)
-* Limonite ...(*bright orange or red, often in veins*)
+* Limonite ...(*bright orange or red, often in veins*) 
+* Native Aluminum ...(*light grey in veins or globs*)
 * Native Copper ...(*bright red or brown in veins or globs*)
-* Native Gold ... (*bright yellow in veins or globs*)
+* Native Gold ...(*bright yellow in veins or globs*)
 * Native Platinum ...(*bright white in veins or globs*)
 * Native Silver ... (*bright white in veins or globs*)
 
 ### tile 170 -> Pointed Columnar Minerals and Gems
 
+* Brimstone ...(*bright yellow spiky crystals*)
+* Gypsum ...(*white to yellow*)
+
 ### tile 171 -> Flat Terminated Columnar Minerals and Gems
+
+* Amazonite ...(*light green feldspar crystals*)
+* Borax ...(*soft grainy white crystals*)
+* Microcline ...(*cyan or light blue feldspar crystals*)
+* Orthoclase ...(*yellowish or cream toned feldspar crystals*)
+* Petrified Wood ...(*tends to be brownish*)
+* Realgar ...(*bright red plates or columnar*)
+* Rutile ...(*dark red, occasionally orange, mineral of many forms*)
+* Stibnite ...(*long columnar with dark silvery tones*)
 
 ### tile 172 -> Dodecahedral Minerals and Gems
 
 * Cinnabar ...(*blood red with multifaceted crystals*)
+* Orpiment ...(*orangish yellow multifaceted crystals*)
 
 ## Constructions (Walls, Floors)
 
