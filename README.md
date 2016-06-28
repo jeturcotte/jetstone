@@ -24,6 +24,23 @@ http://dwarffortresswiki.org/DF2014:Tilesets
 See: https://en.wikipedia.org/wiki/Crystal_habit for typical mineral shapes
 See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and textures
 
+### Major Layers (*inorganic_stone_layer*)
+
+| Type | Subtype | Name | Habit | Colors | Tile |
+| --- | --- | --- | --- | --- | --- |
+| rock | sedimentary | **SANDSTONE** | subtle layering or striations | light warm tones | 137 |
+| rock | sedimentary | **SILTSTONE** | little to no texture | light warm tones | 135 | 
+| rock | sedimentary | **MUDSTONE** | little to no texture | middle warm greys | 135 |
+| rock | sedimentary | **SHALE** | subtle layering only | dark greys | 137 |
+| rock | sedimentary | **CLAYSTONE** | distinct layers | dark greys and browns | 137 |
+| rock | sedimentary | **ROCK_SALT**<sup>1</sup> | cubic crystallization | white to light pink | 140 |
+
+## Notes
+
+# In the vanilla files, Rock Salt (aka, Halite) is a single mineral (pure)... not a rock (which consist of many minerals smashed together.)
+
+* Claystone ...**sedimentary** ...(*dark grey and browns with distinct layers*)
+
 ### tile 134 -> Large Grained Stone ...(*usually igneous intrusive*)
 
 * Bauxite ...**sedimentary** ...(*light warm tones with various nodules*)
@@ -51,11 +68,11 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 * Flint ...**sedimentary** ...(*greyish green quality form of chert*)
 * Kaolinite ...(*bright white to cream with little texture*)
 * Hornfels ...**metamorphic** ...(*very dark, almost no grains*)
-* Mudstone ...**metamorphic** ...(*middle tone warm greys with little texture*)
+
 * Obsidian ...**igneous extrusive** ...(*black, rarely with white striations, glassy*)
 * Pumice ...**igneous extrusive** ...(*light grey to light cream*)
 * Rhyolite ...**igneous extrusive** ...(*light grey to light red*)
-* Siltstone ...**sedimentary** ...(*light warm tones with almost no striations*)
+
 * Slate ...**metamorphic** ...(*very dark and relatively untextures*)
 * Tuff ...**igneous extrusive** ...(*dark to medium red with light grains*)
 	
@@ -76,10 +93,9 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 ### tile 137 -> Straight Layered Stone (usually sedimentary)
 
 * Chert ...**sedimentary** ...(*browish red with few striations*)
-* Claystone ...**sedimentary** ...(*dark grey and browns with distinct layers*)
+
 * Limestone ...**sedimentary** ...(*light grey to white*)
-* Sandstone ...**sedimentary** ...(*light warm tones with subtle striations*)
-* Shale ...**sedimentary** ...(*dark greys with subtle striation*)
+
 	
 ### tile 139 -> Globular or Druzy Minerals and Gems
 
