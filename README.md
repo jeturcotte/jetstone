@@ -24,7 +24,24 @@ http://dwarffortresswiki.org/DF2014:Tilesets
 See: https://en.wikipedia.org/wiki/Crystal_habit for typical mineral shapes
 See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and textures
 
-### Major Layers (*inorganic_stone_layer*)
+### Tile Choices
+
+* 134 - Mostly Igneous Intrusive Rock; **Large Obvious Grains
+* 135 - Mostly Igneous Extrusive Rock; **Small to Invisible Grains
+* 136 - Mostly Metamorphic Rock; **Distorted Bands or Squished Blotches
+* 137 - Mostly Sedimentary Rock; **Layers or Lines, Subtle or Strong
+
+* 139 - Mostly Minerals; **Rounded forms**
+* 140 - Mostly Minerals; ???
+* 141 - Mostly Minerals; **Veins**
+* 142 - Mostly Minerals; **Striations or Platings**
+
+* 169 - Mostly Gems; **Triangular Facets**
+* 170 - Mostly Gems; **Square Facets**
+* 171 - Mostly Gems; **Hexagonal Facets**
+* 172 - Mostly Gems; **Monoclinic Facets** 
+
+### inorganic_stone_layer
 
 | Type | Subtype | Name | Habit | Colors | Tile |
 | --- | --- | --- | --- | --- | --- |
@@ -34,137 +51,90 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 | rock | sedimentary | **SHALE** | subtle layering only | dark greys | 137 |
 | rock | sedimentary | **CLAYSTONE** | distinct layers | dark greys and browns | 137 |
 | rock | sedimentary | **ROCK_SALT**<sup>1</sup> | cubic crystallization | white to light pink | 140 |
+| rock | sedimentary | **LIMESTONE** | largely uniform texture | white to cream | 135 |
+| rock | sedimentary | **CONGLOMERATE** | large random inclusions in matrix | dark with bright spots | 134 |
+| rock | sedimentary | **DOLOMITE**<sup>2</sup> | fairly uniform grainy texture | middle grey to warm grey | 135 |
+| rock | sedimentary | **CHERT** | subtle striations | brownish red | 137 |
+| rock | sedimentary | **CHALK** | little to no texture | bright white | 135 |
+| rock | igneous intrusive | **GRANITE**<sup>3</sup> | heavy spotted textures | white, black, cream | 134 |
+| rock | igneous intrusive | **DIORITE** | large grains | light with dark grains | 134 |
+| rock | igneous intrusive | **GABBRO** | large grains | dark with some light grains | 134 |
+| rock | igneous extrusive | **RHYOLITE** | fairly uniform with small grains | light grey to warm tones | 135 |
+| rock | igneous extrusive | **BASALT**  | fairly uniform texture | dark grey to black | 135 |
+| rock | igneous extrusive | **ANDESITE** | somewhat uniform with bright specks | middle grey | 135 |
+| rock | igneous extrusive | **DACITE** | uniform except for bright specks | light grey | 135 |
+| rock | igneous extrusive | **OBSIDIAN** | lustrous and uniform, rare banding | black, red bands | 139 |
+| rock | metamorphic | **QUARTZITE** | subtle mottling or bands | reddish cream to white | 135 |
+| rock | metamorphic | **SLATE** | subtle lines or uniform | dark grey | 137 |
+| rock | metamorphic | **PHYLLITE** | subtle undulating waves | warm light greys | 136 |
+| rock | metamorphic | **SCHIST**<sup>4</sup> | grainy, mottled, flowing | middle grey | 136 |
+| rock | metamorphic | **GNEISS** | strong wavy or jagged banding | dark gray with bright bands | 136 |
+| rock | metamorphic | **MARBLE**<sup>5</sup> | subtle to strong dark bands in light material | white to cream | 136 |
 
-## Notes
+### inorganic_stone_mineral
 
-# In the vanilla files, Rock Salt (aka, Halite) is a single mineral (pure)... not a rock (which consist of many minerals smashed together.)
+| Type | Subtype | Name | Habit | Colors | Tile |
+| --- | --- | --- | --- | --- | --- |
+| mineral | oxide | **HEMATITE** | angular and faceted | black, brown, red | 169 |
+| mineral | hydroxide | **LIMONITE** | blotchy, amorphous | yellow to red | 134 |
+| mineral | N/A | **GARNIERITE**<sup>6</sup> | blotchy, amorphous | greens | 134 |
+| element | metal | **NATIVE_GOLD** | fans, veins, plates | bright yellow | 141 |
+| element | metal | **NATIVE_SILVER** | fans, veins, plates | bright white | 141 |
+| element | metal | **NATIVE_COPPER** | fans, veins, plates | brown to red | 141 |
+| mineral | hydroxide | **MALACHITE** | bulbous sheets of tiny crystals | dark green | 139 |
+| mineral | sulfide | **GALENA** | cubic and lustrous | dark grey | 170 |
+| mineral | sulfide | **SPHALERITE** | triangular lustrous facets | dark grey, rarely red | 169 |
+| mineral | oxide | **CASSITERITE** | lustrous and triangular | black to mid grey | 169 |
+| rock | metamorphic | **COAL_BITUMINOUS**<sup>7</sup> | sometimes lustrous but low texture | black | 135 |
+| rock | metamorphic | **LIGNITE** | dull and with little texture | dark brown | 135 |
+| element | metal | **NATIVE_PLATINUM** | fans, veins, plates | light grey | 141 |
+| mineral | sulfide | **CINNABAR** | grainy; triangular facets at best | dark red | 169 |
+| mineral | sulfide | **COBALTITE** | confused cubic faces | dark grey or ruddy brown | 170 |
+| mineral | sulfosalt | **TETRAHEDRITE** | reflective triangular faces | dark yellow to grey | 169 |
+| mineral | chloride | **HORN_SILVER** | grainy texture with little structure | dark yellow to grey | 135 |
+| mineral | sulfate | **GYPSUM** | angular striations and long crystals | white | 172 |
+| mineral | silicate | **TALC** | little texture or structure | white to yellow | 135 |
+| rock | metamorphic | **JET**<sup>8</sup> | little texture, subtle striations | black | 137 |
+| rock | sedimentary | **PUDDINGSTONE** | uniform midtone with bright blotches | reds, browns | 134 |
+| rock | metamorphic | **PETRIFIED_WOOD** | strong radiating bands | reds, browns, some whites | 136 |
+| element | semimetal | **GRAPHITE** | lustrous with occasional faceting | black | 171 |
+| element | nonmetal | **BRIMSTONE**<sup>9</sup> | chalky and indistinct | bright yellow | 135 |
+| rock | igneous intrusive | **KIMBERLITE** | grainy uniform with occasional specks | mid to dark grey | 134 |
+| mineral | sulfide | **BISMUTHINITE** | fibrous striations at best | dark grey | 142 |
+| mineral | sulfide | **REALGAR** | semitranslucent with sharp edges | bright red | 172 |
+| mineral | sulfide | **ORPIMENT** | small crystals or blades | orange to red | 142 |
+| mineral | sulfide | **STIBNITE** | lustrous lined columns | mid grey | 142 |
+| mineral | sulfide | **MARCASITE** | lustrous plates and wedges | brownish grey | 142 |
+| mineral | chloride | **SYLVITE** | little texture or structure | creams to reds | 135 |
+| mineral | halide | **CRYOLITE** | little texture or structure | white | 135 |
+| mineral | oxide | **PERICLASE** | blotchy and indistict | speckled light greys | 134 |
+| mineral | oxide | **ILMENITE** | rough and angular | black or dark brown | 169 |
+| mineral | oxide | **RUTILE** | crystallite or hairy | deep red to purple to yellow | 142 |
+| mineral | oxide | **MAGNETITE** | low lustre with sharp angles | black or dark brown | 169 |
+| mineral | oxide | **CHROMITE** | mottled and indistinct | dark grey with highlights | 134 |
+| mineral | oxide | **PYROLUSITE** | shiny spheroid bulbs | black to bluish black | 139 |
+| mineral | oxide | **PITCHBLENDE** | occasional facets; usually rounded | brownish black | 139 |
+| rock | sedimentary | **BAUXITE** | mixture of light matrix and dark blots | light grey and brown | 134 |
+| element | metal | **NATIVE_ALUMINUM** | fans, veins, plates | light grey | 141 |
+| mineral | borate | **BORAX** | usually massive, rare crystal structures | white | 135 |
+| mineral |  | **OLIVINE** |  |  | 139 |
+| mineral |  | **HORNBLENDE** |  |  | 139 |
+| mineral |  | **KAOLINITE** |  |  | 139 |
+| mineral |  | **SERPENTINE** |  |  | 139 |
+| mineral |  | **ORTHOCLASE** |  |  | 139 |
+| mineral |  | **MICROCLINE** |  |  | 139 |
+| mineral |  | **MICA** |  |  | 139 |
+| mineral |  | **CALCITE** |  |  | 139 |
+| mineral |  | **SALTPETER** |  |  | 139 |
+| mineral |  | **ALABASTER** |  |  | 139 |
+| mineral |  | **SELENITE** |  |  | 139 |
+| mineral |  | **SATINSPAR** |  |  | 139 |
+| mineral |  | **ANHYDRITE** |  |  | 139 |
+| mineral |  | **ALUNITE** |  |  | 139 |
+| mineral |  | **RAW_ADAMANTINE** |  |  | 139 |
+| mineral |  | **SLADE** |  |  | 139 |
 
-* Claystone ...**sedimentary** ...(*dark grey and browns with distinct layers*)
 
-### tile 134 -> Large Grained Stone ...(*usually igneous intrusive*)
-
-* Bauxite ...**sedimentary** ...(*light warm tones with various nodules*)
-* Breccia ...**sedimentary** ...(*light with slightly darker nodules*)
-* Conglomerate ...**sedimentary** ...(*light with slightly darker nodules*)
-* Diorite ...**igneous intrusive** ...(*mostly light with some dark grains*)
-* Gabbro ...**igneous intrusive** ...(*mostly dark with some light grains*)
-* Granite ...**igneous intrusive** ...(*mottling of dark and light*)
-  * note: consider splitting this out into a few generic common varieties
-* Greywacke ...**sedimentary** ...(*bright bits stuck in dark sediment*)
-* Kimberlite ...**igneous intrusive** ...(*greyish green with large bright chunks**)
-* Pegmatite ...**igneous intrusive** ...(*mottling of dark and light*)
-* Peridotite ...**igneous intrusive** ...(*mostly dark grey and dark green*)
-* Puddingstone ...**sedimentary** ...(*dark and light often warm tones*)
-  * found only in conglomerates
-* Scoria ...**igneous extrusive** ...(*Dark Grey, Dark Red*)
-
-### tile 135 -> Small Grained Stone ...(*usually igneous extrusive with some metamorphic*)
-
-* Basalt ...**igneous extrusive** ...(*very dark almost black with little to no patterning*)
-* Bitumen ...**sedimentary** ...(*blackish dark, very little texture*)
-  * note: replaces bituminous coal in the raws
-* Chalk ...**sedimentary** ...(*very bright material with little texture*)
-* Dolostone ...**sedimentary** ...(*dark salmon to dark grey with little texture*)
-* Flint ...**sedimentary** ...(*greyish green quality form of chert*)
-* Kaolinite ...(*bright white to cream with little texture*)
-* Hornfels ...**metamorphic** ...(*very dark, almost no grains*)
-
-* Obsidian ...**igneous extrusive** ...(*black, rarely with white striations, glassy*)
-* Pumice ...**igneous extrusive** ...(*light grey to light cream*)
-* Rhyolite ...**igneous extrusive** ...(*light grey to light red*)
-
-* Slate ...**metamorphic** ...(*very dark and relatively untextures*)
-* Tuff ...**igneous extrusive** ...(*dark to medium red with light grains*)
-	
-### tile 136 -> Mottled or Wavy Layered Stone ...(*usually metamorphic*)
-
-* Anthracite ...**metamorphic** ...(*dark with some bent banding*)
-* Gneiss ...**metamorphic** ...(*dark and light bending bands*)
-* Lapis Lazuli ...**metamorphic** ...(*bright blue with some mottling*)
-* Lignite ...**sedimentary** ...(*very dark brown to black with some banding*)
-* Marble ...**metamorphic** ...(*light hues with some dark mottling*)
-  * note: consider splitting this out into a few generic common varieties
-* Phyllite ...**metamorphic** ...(*light grey to light cream with subtle striations*)
-* Quartzite ...**metamorphic** ...(*light tone with few grains or bands*)
-* Schist ...**metamorphic** ...(*various middle tones from grey, green, blue*)
-  * note: split this out into greyschist, greenschist, blueschist, and whiteschist
-* Soapstone ...**metamorphic** ...(*mottled light tones of white and almost blue*)
-	
-### tile 137 -> Straight Layered Stone (usually sedimentary)
-
-* Chert ...**sedimentary** ...(*browish red with few striations*)
-
-* Limestone ...**sedimentary** ...(*light grey to white*)
-
-	
-### tile 139 -> Globular or Druzy Minerals and Gems
-
-* Azurite ...(*dark blue layered bulbs*)
-* Hematite ...(*dark grey or deep red, bulbous, sometimes shiny*)
-* Jet ...(*black and sometimes shiny*)
-* Malachite ...(*dark green and light green layered bulbs*)
-* Olivine ...(*light green mineral in massive bulbous form*)
-  * Note that *Peridot* is the same thing, but if finer quality
-* Pitchblende ...(*black massive or bulbous material of low lustre*)
-* Pyrolusite ...(*black or dark grey semilustrous bulbs and spears*)
-	
-### tile 140 -> Square-Faced Minerals and Gems
-
-* Cobaltite ...(*bluish grey mineral of some luster with confused flat faces*)
-* Galena ...(*dark lustrous grey with sheer faces*)
-* Sylvite ...(*whitish yellowish cubic crystals*)
-
-### tile 141 -> Triangle-Faced Minerals and Gems
-
-This includes octahedrons and tetrahedrons
-
-* Cassiterite ...(*light gray, lustrous with triangular faces*)
-* Chromite ...(*dark grey with occasional triangular faces*)
-* Ilmenite ...(*black with some lustrous triangular faces*)
-* Magnetite ...(*black with some lustrous triangular faces*)
-* Sphalerite ...(*dark gray or black with triangular faces*)
-* Tetrahedrite ...(*dark yellow or lustrious brown with triangular faces*)
-
-### tile 142 -> Foliated, Tabular, or Plated Minerals and Gems
-
-* Bismuthinite ...(*plated or sheeted silvery grey*)
-* Graphite ...(*lustrous greys*)
-* Horn Silver ...(*grey to brown*)
-* Marcasite ...(*plated with a dark silvery yellow-brown color*)
-* Serpentine ...(*fibrous or plated middle to dark green*)
-* Talc ...(*bright white*)
-
-### tile 169 -> Amorphous or Veined Minerals and Gems
-
-* Fire Opal ...(*bright yellow, orange, or red*)
-* Garnierite ...(*bright green mineral with little visible structure*)
-* Limonite ...(*bright orange or red, often in veins*) 
-* Native Aluminum ...(*light grey in veins or globs*)
-* Native Copper ...(*bright red or brown in veins or globs*)
-* Native Gold ...(*bright yellow in veins or globs*)
-* Native Platinum ...(*bright white in veins or globs*)
-* Native Silver ... (*bright white in veins or globs*)
-
-### tile 170 -> Pointed Columnar Minerals and Gems
-
-* Brimstone ...(*bright yellow spiky crystals*)
-* Gypsum ...(*white to yellow*)
-
-### tile 171 -> Flat Terminated Columnar Minerals and Gems
-
-* Amazonite ...(*light green feldspar crystals*)
-* Borax ...(*soft grainy white crystals*)
-* Microcline ...(*cyan or light blue feldspar crystals*)
-* Orthoclase ...(*yellowish or cream toned feldspar crystals*)
-* Petrified Wood ...(*tends to be brownish*)
-* Realgar ...(*bright red plates or columnar*)
-* Rutile ...(*dark red, occasionally orange, mineral of many forms*)
-* Stibnite ...(*long columnar with dark silvery tones*)
-
-### tile 172 -> Dodecahedral Minerals and Gems
-
-* Cinnabar ...(*blood red with multifaceted crystals*)
-* Orpiment ...(*orangish yellow multifaceted crystals*)
 
 ## Constructions (Walls, Floors)
 
@@ -173,3 +143,15 @@ This includes octahedrons and tetrahedrons
 ## Flora
 
 ## Trinkets, Tools, and Doodads
+
+## Notes
+
+1. Rock salt is not actually a rock, but a singular mineral called Halite.
+2. Dolomite is also not a rock, but a singular whitish crystal.  Dolo*STONE* is the rock being referred to hear which consists, in large part, of dolomite mixed with other minerals.
+3. Granites come in many hues which often have names of their own.  Red Granite, Pink Granite, White Granite, Black Granite, etc.
+4. Schist also tends to come in a variety of predictable hues, often grey, brown, blue, and green.
+5. Marble tends to come in a very wide array of variety, and should be split out into a few notable options.
+6. Garnierite is not actually a recognized mineral as there appear to be a wide variety of alternative chemical associations (or even mineral associations that would make it a rock, instead) that produce effects confused as being the same thing.
+7. All of the coals are technically biogenic ROCK produced through metamorphic processes from fossilized material... but the raws often classify them as minerals instead.
+8. Jet is merely considered a particularly quality and workable form of lignite, which means it is still a metamorphic rock or biogenic 'mineraloid' at best.
+9. Literally, brimstone is just a name for sulfur.
