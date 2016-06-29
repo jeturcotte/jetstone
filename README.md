@@ -26,13 +26,13 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 
 ### Tile Choices
 
-* 134 - Mostly Igneous Intrusive Rock; **Large Obvious Grains
-* 135 - Mostly Igneous Extrusive Rock; **Small to Invisible Grains
-* 136 - Mostly Metamorphic Rock; **Distorted Bands or Squished Blotches
-* 137 - Mostly Sedimentary Rock; **Layers or Lines, Subtle or Strong
+* 134 - Mostly Igneous Intrusive Rock; **Large Obvious Grains**
+* 135 - Mostly Igneous Extrusive Rock; **Small to Invisible Grains**
+* 136 - Mostly Metamorphic Rock; **Distorted Bands or Squished Blotches**
+* 137 - Mostly Sedimentary Rock; **Layers or Lines, Subtle or Strong**
 
 * 139 - Mostly Minerals; **Rounded forms**
-* 140 - Mostly Minerals; ???
+* 140 - Mostly Minerals; **Columnar facets**
 * 141 - Mostly Minerals; **Veins**
 * 142 - Mostly Minerals; **Striations or Platings**
 
@@ -134,7 +134,139 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 | mineral | alloy | **RAW_ADAMANTINE** | crystalline cubes | light bluish grey | 170 |
 | mineral | ??? | **SLADE** | fibrous or amorphous | dark grey | 142 |
 
+### inorganic_stone_gem
 
+To be fair, most all of these gems are minerals, often identical to some of the minerals in the previous section.
+
+| Type | Subtype | Name | Habit | Colors | Tile |
+| --- | --- | --- | --- | --- | --- |
+| mineral | oxide | **ONYX** | parallel light bands against dark | black or red | 137 |
+| mineral | oxide | **MORION**<sup>15</sup> | sharp facets, mostly opaque | black | 140 |
+| mineral | silicate | **SHORL** | faceted or striated columns | black | 140 |
+| mineral | silicate | **LACE AGATE** | heavily banded | light shades, often blue | 136 |
+| mineral |  | **BLUE JADE** |  || 171 |
+| mineral |  | **LAPIS LAZULI** |  || 171 |
+| mineral |  | **PRASE** |  || 171 |
+| mineral |  | **PRASE OPAL** |  || 171 |
+| mineral |  | **BLOODSTONE** |  || 171 |
+| mineral |  | **MOSS AGATE** | heavily banded | dark green | 136 |
+| mineral |  | **MOSS OPAL** |  || 171 |
+| mineral |  | **VARISCITE** |  || 171 |
+| mineral |  | **CHRYSOPRASE** |  || 171 |
+| mineral |  | **CHRYSOCOLLA** |  || 171 |
+| mineral |  | **SARD** |  || 171 |
+| mineral |  | **CARNELIAN** |  || 171 |
+| mineral |  | **BANDED AGATE** | heavily banded | warm tones, whites, reds | 136 |
+| mineral |  | **SARDONYX** |  || 171 |
+| mineral |  | **CHERRY OPAL** |  || 171 |
+| mineral |  | **LAVENDER JADE** |  || 171 |
+| mineral |  | **PINK JADE** |  || 171 |
+| mineral |  | **TUBE AGATE** | heavily circular banding | creams and reds | 136 |
+| mineral |  | **FIRE AGATE** | rounded formations | irridescent | 139 |
+| mineral |  | **PLUME AGATE** | heavily plumed banding | creams and reds | 136 |
+| mineral |  | **BROWN JASPER** |  || 171 |
+| mineral |  | **PICTURE JASPER** |  || 171 |
+| mineral |  | **SMOKY QUARTZ** |  || 171 |
+| mineral |  | **WAX OPAL** |  || 171 |
+| mineral |  | **WOOD OPAL** |  || 171 |
+| mineral |  | **AMBER OPAL** |  || 171 |
+| mineral |  | **GOLD OPAL** |  || 171 |
+| mineral |  | **CITRINE** |  || 171 |
+| mineral |  | **YELLOW JASPER** |  || 171 |
+| mineral |  | **TIGEREYE** |  || 171 |
+| mineral |  | **TIGER IRON** |  || 171 |
+| mineral |  | **SUNSTONE** |  || 171 |
+| mineral |  | **RESIN OPAL** |  || 171 |
+| mineral |  | **PYRITE** |  || 171 |
+| mineral |  | **CLEAR TOURMALINE** |  || 171 |
+| mineral |  | **GRAY CHALCEDONY** |  || 171 |
+| mineral |  | **DENDRITIC AGATE** | heavily tree-like inclusions | black and white | 136 |
+| mineral |  | **SHELL OPAL** |  || 171 |
+| mineral |  | **BONE OPAL** |  || 171 |
+| mineral |  | **WHITE CHALCEDONY** |  || 171 |
+| mineral |  | **FORTIFICATION AGATE** | heavily banded | creams and reds | 136 |
+| mineral |  | **MILK QUARTZ** |  || 171 |
+| mineral |  | **MOONSTONE** |  || 171 |
+| mineral |  | **WHITE JADE** |  || 171 |
+| mineral |  | **JASPER OPAL** |  || 171 |
+| mineral |  | **PINEAPPLE OPAL** |  || 171 |
+| mineral |  | **ONYX OPAL** |  || 171 |
+| mineral |  | **MILK OPAL** |  || 171 |
+| mineral |  | **PIPE OPAL** |  || 171 |
+| mineral |  | **AVENTURINE** |  || 171 |
+| mineral |  | **TURQUOISE** |  || 171 |
+| mineral |  | **QUARTZ_ROSE** |  || 171 |
+| mineral |  | **CRYSTAL_ROCK** |  || 171 |
+| mineral |  | **BLACK ZIRCON** |  || 171 |
+| mineral |  | **BLACK PYROPE** |  || 171 |
+| mineral |  | **MELANITE** |  || 171 |
+| mineral |  | **INDIGO TOURMALINE** |  || 171 |
+| mineral |  | **BLUE GARNET** |  || 171 |
+| mineral |  | **TSAVORITE** |  || 171 |
+| mineral |  | **GREEN TOURMALINE** |  || 171 |
+| mineral |  | **DEMANTOID** |  || 171 |
+| mineral |  | **GREEN ZIRCON** |  || 171 |
+| mineral |  | **GREEN JADE** |  || 171 |
+| mineral |  | **HELIODOR** |  || 171 |
+| mineral |  | **PERIDOT** |  || 171 |
+| mineral |  | **RED ZIRCON** |  || 171 |
+| mineral |  | **RED TOURMALINE** |  || 171 |
+| mineral |  | **RED PYROPE** |  || 171 |
+| mineral |  | **ALMANDINE** |  || 171 |
+| mineral |  | **RED GROSSULAR** |  || 171 |
+| mineral |  | **PINK TOURMALINE** |  || 171 |
+| mineral |  | **RED BERYL** |  || 171 |
+| mineral |  | **FIRE OPAL** |  || 171 |
+| mineral |  | **RHODOLITE** |  || 171 |
+| mineral |  | **SPINEL_PURPLE** |  || 171 |
+| mineral |  | **ALEXANDRITE** |  || 171 |
+| mineral |  | **TANZANITE** |  || 171 |
+| mineral |  | **MORGANITE** |  || 171 |
+| mineral |  | **VIOLET SPESSARTINE** |  || 171 |
+| mineral |  | **PINK GARNET** |  || 171 |
+| mineral |  | **KUNZITE** |  || 171 |
+| mineral |  | **CINNAMON GROSSULAR** |  || 171 |
+| mineral |  | **HONEY YELLOW BERYL** |  || 171 |
+| mineral |  | **JELLY OPAL** |  || 171 |
+| mineral |  | **BROWN ZIRCON** |  || 171 |
+| mineral |  | **YELLOW ZIRCON** |  || 171 |
+| mineral |  | **GOLDEN BERYL** |  || 171 |
+| mineral |  | **YELLOW SPESSARTINE** |  || 171 |
+| mineral |  | **TOPAZ** |  || 171 |
+| mineral |  | **TOPAZOLITE** |  || 171 |
+| mineral |  | **YELLOW GROSSULAR** |  || 171 |
+| mineral |  | **RUBICELLE** |  || 171 |
+| mineral |  | **CLEAR GARNET** |  || 171 |
+| mineral |  | **GOSHENITE** |  || 171 |
+| mineral |  | **CAT'S EYE** |  || 171 |
+| mineral |  | **CLEAR ZIRCON** |  || 171 |
+| mineral |  | **AMETHYST** |  || 171 |
+| mineral |  | **AQUAMARINE** |  || 171 |
+| mineral |  | **SPINEL_RED** |  || 171 |
+| mineral |  | **CHRYSOBERYL** |  || 171 |
+| mineral |  | **OPAL_PFIRE** |  || 171 |
+| mineral |  | **OPAL_REDFLASH** |  || 171 |
+| mineral |  | **OPAL_BLACK** |  || 171 |
+| mineral |  | **OPAL_WHITE** |  || 171 |
+| mineral |  | **OPAL_CRYSTAL** |  || 171 |
+| mineral |  | **OPAL_CLARO** |  || 171 |
+| mineral |  | **OPAL_LEVIN** |  || 171 |
+| mineral |  | **OPAL_HARLEQUIN** |  || 171 |
+| mineral |  | **OPAL_PINFIRE]** |  || 171 |
+| mineral |  | **OPAL_BANDFIRE** |  || 171 |
+| mineral |  | **DIAMOND_LY** |  || 171 |
+| mineral |  | **DIAMOND_FY** |  || 171 |
+| mineral |  | **EMERALD** |  || 171 |
+| mineral |  | **RUBY** |  || 171 |
+| mineral |  | **SAPPHIRE** |  || 171 |
+| mineral |  | **DIAMOND_CLEAR** |  || 171 |
+| mineral |  | **DIAMOND_RED** |  || 171 |
+| mineral |  | **DIAMOND_GREEN** |  || 171 |
+| mineral |  | **DIAMOND_BLUE** |  || 171 |
+| mineral |  | **DIAMOND_YELLOW** |  || 171 |
+| mineral |  | **DIAMOND_BLACK** |  || 171 |
+| mineral |  | **SAPPHIRE_STAR** |  || 171 |
+| mineral |  | **RUBY_STAR** |  || 171 |
 
 ## Constructions (Walls, Floors)
 
@@ -160,3 +292,4 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 12. Serpentine is not any one mineral, but a grouping of similar minerals with similar qualities.
 13. Alabaster is a common name for any of three minerals derived from calcite or gypsum, but is not a mineral itself.
 14. Selenite is just another name for gypsum, which is already included in the raws.  Satinspar is ALSO the same thing as both selenite and gypsum.  Only difference in each is shape.
+15. Morion and Smokey Quartz are just slight different shades of the same thing
