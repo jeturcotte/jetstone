@@ -117,22 +117,22 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 | rock | sedimentary | **BAUXITE** | mixture of light matrix and dark blots | light grey and brown | 134 |
 | element | metal | **NATIVE_ALUMINUM** | fans, veins, plates | light grey | 141 |
 | mineral | borate | **BORAX** | usually massive, rare crystal structures | white | 135 |
-| mineral |  | **OLIVINE** |  |  | 139 |
-| mineral |  | **HORNBLENDE** |  |  | 139 |
-| mineral |  | **KAOLINITE** |  |  | 139 |
-| mineral |  | **SERPENTINE** |  |  | 139 |
-| mineral |  | **ORTHOCLASE** |  |  | 139 |
-| mineral |  | **MICROCLINE** |  |  | 139 |
-| mineral |  | **MICA** |  |  | 139 |
-| mineral |  | **CALCITE** |  |  | 139 |
-| mineral |  | **SALTPETER** |  |  | 139 |
-| mineral |  | **ALABASTER** |  |  | 139 |
-| mineral |  | **SELENITE** |  |  | 139 |
-| mineral |  | **SATINSPAR** |  |  | 139 |
-| mineral |  | **ANHYDRITE** |  |  | 139 |
-| mineral |  | **ALUNITE** |  |  | 139 |
-| mineral |  | **RAW_ADAMANTINE** |  |  | 139 |
-| mineral |  | **SLADE** |  |  | 139 |
+| mineral | silicate | **OLIVINE**<sup>10</sup> | glassy, usually amorphous, bubbly | dark to light green | 139 |
+| mineral | silicate | **HORNBLENDE**<sup>11</sup> | rough and shapeless | black with rare specks | 135 |
+| mineral | silicate | **KAOLINITE** | layered microcrystals | white to dark cream | 137 |
+| mineral | silicate | **SERPENTINE**<sub>12<sup> | untextured to layered | dark green | 136 |
+| mineral | silicate | **ORTHOCLASE** | often amorphous, can have angular crystals | cream to yellow | 172 |
+| mineral | silicate | **MICROCLINE** | often amorphous, can have anuglar crystals | bright green or blue | 172 |
+| mineral | silicate | **MICA** | in stacked sheets or crushed | silver, purple, or blackish | 142 |
+| mineral | carbonate | **CALCITE** | amorphous or with pointed crystals | white to orange | 169 |
+| mineral | nitrate | **SALTPETER** | amorphous with little texture | white | 135 |
+| mineral | carbonate | **ALABASTER**<sup>13</sup> | little texture | white to dark cream | 135 |
+| mineral | sulfate | **SELENITE**<sup>14</sup> | monoclinic angles or amorphous | white to dark cream | 172 |
+| mineral | sulfate | **SATINSPAR**<sup>14</sup> | plated or feathered | milky white | 142 |
+| mineral | sulfate | **ANHYDRITE** | plated or fibrous | white | 142 |
+| mineral | sulfate | **ALUNITE** | fibrous or amorphous | dark cream to orange | 142 |
+| mineral | alloy | **RAW_ADAMANTINE** | crystalline cubes | light bluish grey | 170 |
+| mineral | ??? | **SLADE** | fibrous or amorphous | dark grey | 142 |
 
 
 
@@ -155,3 +155,8 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 7. All of the coals are technically biogenic ROCK produced through metamorphic processes from fossilized material... but the raws often classify them as minerals instead.
 8. Jet is merely considered a particularly quality and workable form of lignite, which means it is still a metamorphic rock or biogenic 'mineraloid' at best.
 9. Literally, brimstone is just a name for sulfur.
+10. Olivine is simply the massive/less translucent form of Peridot, and vice versa.
+11. Hornblende is not officially a mineral at all, but a common name for a population of similar minerals.
+12. Serpentine is not any one mineral, but a grouping of similar minerals with similar qualities.
+13. Alabaster is a common name for any of three minerals derived from calcite or gypsum, but is not a mineral itself.
+14. Selenite is just another name for gypsum, which is already included in the raws.  Satinspar is ALSO the same thing as both selenite and gypsum.  Only difference in each is shape.
