@@ -120,7 +120,7 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 | mineral | silicate | **OLIVINE**<sup>10</sup> | glassy, usually amorphous, bubbly | dark to light green | 139 |
 | mineral | silicate | **HORNBLENDE**<sup>11</sup> | rough and shapeless | black with rare specks | 135 |
 | mineral | silicate | **KAOLINITE** | layered microcrystals | white to dark cream | 137 |
-| mineral | silicate | **SERPENTINE**<sub>12<sup> | untextured to layered | dark green | 136 |
+| mineral | silicate | **SERPENTINE**<sup>12<sup> | untextured to layered | dark green | 136 |
 | mineral | silicate | **ORTHOCLASE** | often amorphous, can have angular crystals | cream to yellow | 172 |
 | mineral | silicate | **MICROCLINE** | often amorphous, can have anuglar crystals | bright green or blue | 172 |
 | mineral | silicate | **MICA** | in stacked sheets or crushed | silver, purple, or blackish | 142 |
@@ -144,26 +144,26 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | oxide | **MORION**<sup>15</sup> | sharp facets, mostly opaque | black | 140 |
 | mineral | silicate | **SHORL** | faceted or striated columns | black | 140 |
 | mineral | silicate | **LACE AGATE** | heavily banded | light shades, often blue | 136 |
-| mineral |  | **BLUE JADE** |  || 171 |
-| mineral |  | **LAPIS LAZULI** |  || 171 |
-| mineral |  | **PRASE** |  || 171 |
-| mineral |  | **PRASE OPAL** |  || 171 |
-| mineral |  | **BLOODSTONE** |  || 171 |
-| mineral |  | **MOSS AGATE** | heavily banded | dark green | 136 |
-| mineral |  | **MOSS OPAL** |  || 171 |
-| mineral |  | **VARISCITE** |  || 171 |
-| mineral |  | **CHRYSOPRASE** |  || 171 |
-| mineral |  | **CHRYSOCOLLA** |  || 171 |
-| mineral |  | **SARD** |  || 171 |
-| mineral |  | **CARNELIAN** |  || 171 |
-| mineral |  | **BANDED AGATE** | heavily banded | warm tones, whites, reds | 136 |
-| mineral |  | **SARDONYX** |  || 171 |
-| mineral |  | **CHERRY OPAL** |  || 171 |
+| rock | metamorphic | **BLUE JADE** | subtle banding | light blue, cyan | 136 |
+| rock | metamorphic | **LAPIS LAZULI** | grainy or banded textures | dark blue | 137 |
+| mineral | silicate | **PRASE** | mottled or banded | dark to light green | 141 |
+| mineral | silicate | **PRASE OPAL** | mottled or banded | dark to light green | 136 |
+| mineral | silicate | **BLOODSTONE** | highly mottled | green and red | 134 |
+| mineral | silicate | **MOSS AGATE** | heavily banded | dark green | 136 |
+| mineral | silicate | **MOSS OPAL** | monotone with dendritic splotches | cream with dark brown markings | 141 |
+| mineral | phosphate | **VARISCITE** | bulbous or massive with banding | dark to middle green | 139 |
+| mineral | silicate | **CHRYSOPRASE** | solid tones with dark rings or bands | middle green with black | 141 |
+| mineral | silicate | **CHRYSOCOLLA** | bulbous or amorphous | teal or green with flowing bands | 139 |
+| mineral | silicate | **SARD**<sup>16</sup> | subtle mottling | dark red | 139 |
+| mineral | silicate | **CARNELIAN**<sup>16</sup> | subtle mottling or banding | dark red | 139 |
+| mineral | silicate | **BANDED AGATE** | heavily banded | warm tones, whites, reds | 136 |
+| mineral | silicate | **SARDONYX** | heavy banded | dark red with creamy bands | 136 |
+| mineral | silicate | **CHERRY OPAL** | little texture, fairly translucent | red | 136 |
 | mineral |  | **LAVENDER JADE** |  || 171 |
 | mineral |  | **PINK JADE** |  || 171 |
-| mineral |  | **TUBE AGATE** | heavily circular banding | creams and reds | 136 |
-| mineral |  | **FIRE AGATE** | rounded formations | irridescent | 139 |
-| mineral |  | **PLUME AGATE** | heavily plumed banding | creams and reds | 136 |
+| mineral | silicate | **TUBE AGATE** | heavily circular banding | creams and reds | 136 |
+| mineral | silicate | **FIRE AGATE** | rounded formations | irridescent | 139 |
+| mineral | silicate | **PLUME AGATE** | heavily plumed banding | creams and reds | 136 |
 | mineral |  | **BROWN JASPER** |  || 171 |
 | mineral |  | **PICTURE JASPER** |  || 171 |
 | mineral |  | **SMOKY QUARTZ** |  || 171 |
@@ -180,11 +180,11 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral |  | **PYRITE** |  || 171 |
 | mineral |  | **CLEAR TOURMALINE** |  || 171 |
 | mineral |  | **GRAY CHALCEDONY** |  || 171 |
-| mineral |  | **DENDRITIC AGATE** | heavily tree-like inclusions | black and white | 136 |
+| mineral | silicate | **DENDRITIC AGATE** | heavily tree-like inclusions | black and white | 136 |
 | mineral |  | **SHELL OPAL** |  || 171 |
 | mineral |  | **BONE OPAL** |  || 171 |
 | mineral |  | **WHITE CHALCEDONY** |  || 171 |
-| mineral |  | **FORTIFICATION AGATE** | heavily banded | creams and reds | 136 |
+| mineral | silicate | **FORTIFICATION AGATE** | heavily banded | creams and reds | 136 |
 | mineral |  | **MILK QUARTZ** |  || 171 |
 | mineral |  | **MOONSTONE** |  || 171 |
 | mineral |  | **WHITE JADE** |  || 171 |
@@ -293,3 +293,4 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 13. Alabaster is a common name for any of three minerals derived from calcite or gypsum, but is not a mineral itself.
 14. Selenite is just another name for gypsum, which is already included in the raws.  Satinspar is ALSO the same thing as both selenite and gypsum.  Only difference in each is shape.
 15. Morion and Smokey Quartz are just slight different shades of the same thing
+16. Sard and Carnelian are the same mineral.
