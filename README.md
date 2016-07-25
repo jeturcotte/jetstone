@@ -147,7 +147,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | rock | metamorphic | **BLUE JADE** | subtle banding | light blue, cyan | 136 |
 | rock | metamorphic | **LAPIS LAZULI** | grainy or banded textures | dark blue | 137 |
 | mineral | silicate | **PRASE** | mottled or banded | dark to light green | 141 |
-| mineral | silicate | **PRASE OPAL** | mottled or banded | dark to light green | 136 |
+| mineral | silicate | **PRASE OPAL** | mottled or banded | dark to light green | 141 |
 | mineral | silicate | **BLOODSTONE** | highly mottled | green and red | 134 |
 | mineral | silicate | **MOSS AGATE** | heavily banded | dark green | 136 |
 | mineral | silicate | **MOSS OPAL** | monotone with dendritic splotches | cream with dark brown markings | 141 |
@@ -158,41 +158,41 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | silicate | **CARNELIAN**<sup>16</sup> | subtle mottling or banding | dark red | 139 |
 | mineral | silicate | **BANDED AGATE** | heavily banded | warm tones, whites, reds | 136 |
 | mineral | silicate | **SARDONYX** | heavy banded | dark red with creamy bands | 136 |
-| mineral | silicate | **CHERRY OPAL** | little texture, fairly translucent | red | 136 |
-| mineral |  | **LAVENDER JADE** |  || 171 |
-| mineral |  | **PINK JADE** |  || 171 |
+| mineral | silicate | **CHERRY OPAL** | little texture, fairly translucent | red | 141 |
+| rock | metamorphic | **LAVENDER JADE** | faint mottling or striations | purple and green | 137 |
+| rock | metamorphic | **PINK JADE** | faint mottling or striations | distinctly pink | 137 |
 | mineral | silicate | **TUBE AGATE** | heavily circular banding | creams and reds | 136 |
 | mineral | silicate | **FIRE AGATE** | rounded formations | irridescent | 139 |
 | mineral | silicate | **PLUME AGATE** | heavily plumed banding | creams and reds | 136 |
-| mineral |  | **BROWN JASPER** |  || 171 |
-| mineral |  | **PICTURE JASPER** |  || 171 |
-| mineral |  | **SMOKY QUARTZ** |  || 171 |
-| mineral |  | **WAX OPAL** |  || 171 |
-| mineral |  | **WOOD OPAL** |  || 171 |
-| mineral |  | **AMBER OPAL** |  || 171 |
-| mineral |  | **GOLD OPAL** |  || 171 |
-| mineral |  | **CITRINE** |  || 171 |
-| mineral |  | **YELLOW JASPER** |  || 171 |
-| mineral |  | **TIGEREYE** |  || 171 |
-| mineral |  | **TIGER IRON** |  || 171 |
-| mineral |  | **SUNSTONE** |  || 171 |
-| mineral |  | **RESIN OPAL** |  || 171 |
-| mineral |  | **PYRITE** |  || 171 |
+| mineral | silicate | **BROWN JASPER** | fairly uniform tones | brown to purple | 135 |
+| mineral | silicate | **PICTURE JASPER** | strong mottling | browns, whites | 141 |
+| mineral | silicate | **SMOKY QUARTZ** | milky to translucent with sharp terminations | light grey to brown | 169 |
+| mineral | silicate | **WAX OPAL** | subtle mottling if any, semi-translucent | pale yellows | 141 |
+| mineral | silicate | **WOOD OPAL** | ringlike striations with sharp coloration | browns and blues | 141 |
+| mineral | silicate | **AMBER OPAL** | subtle mottling, semi-translucent | reds and golds | 141 |
+| mineral | silicate | **GOLD OPAL** | subtle mottling, semi-translucent | yellows | 141 |
+| mineral | silicate | **CITRINE** | milky to translucent with sharp terminations | dark brown to gold | 169 |
+| mineral | silicate | **YELLOW JASPER** | modest mottling and banding | golden yellow | 135 |
+| mineral | silicate | **TIGEREYE** | strong reflective banding | browns and golds | 141 |
+| rock | metamorphic | **TIGER IRON** | strong reflective banding | browns and golds | 141 |
+| mineral | silicate | **SUNSTONE** | translucent triclinic faces | golden yellow | 170 |
+| mineral | silicate | **RESIN OPAL** | strong mottling and reflectivity | green | 141 |
+| mineral | sulfide | **PYRITE** | reflective cubic faces | metallic yellow | 170 |
 | mineral |  | **CLEAR TOURMALINE** |  || 171 |
 | mineral |  | **GRAY CHALCEDONY** |  || 171 |
 | mineral | silicate | **DENDRITIC AGATE** | heavily tree-like inclusions | black and white | 136 |
-| mineral |  | **SHELL OPAL** |  || 171 |
-| mineral |  | **BONE OPAL** |  || 171 |
+| mineral |  | **SHELL OPAL** |  || 141 |
+| mineral |  | **BONE OPAL** |  || 141 |
 | mineral |  | **WHITE CHALCEDONY** |  || 171 |
 | mineral | silicate | **FORTIFICATION AGATE** | heavily banded | creams and reds | 136 |
 | mineral |  | **MILK QUARTZ** |  || 171 |
 | mineral |  | **MOONSTONE** |  || 171 |
-| mineral |  | **WHITE JADE** |  || 171 |
-| mineral |  | **JASPER OPAL** |  || 171 |
-| mineral |  | **PINEAPPLE OPAL** |  || 171 |
-| mineral |  | **ONYX OPAL** |  || 171 |
-| mineral |  | **MILK OPAL** |  || 171 |
-| mineral |  | **PIPE OPAL** |  || 171 |
+| rock | metamorphic | **WHITE JADE** | faint mottling or striations || 136 |
+| mineral |  | **JASPER OPAL** |  || 141 |
+| mineral |  | **PINEAPPLE OPAL** |  || 141 |
+| mineral |  | **ONYX OPAL** |  || 141 |
+| mineral |  | **MILK OPAL** |  || 141 |
+| mineral |  | **PIPE OPAL** |  || 141 |
 | mineral |  | **AVENTURINE** |  || 171 |
 | mineral |  | **TURQUOISE** |  || 171 |
 | mineral |  | **QUARTZ_ROSE** |  || 171 |
@@ -206,7 +206,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral |  | **GREEN TOURMALINE** |  || 171 |
 | mineral |  | **DEMANTOID** |  || 171 |
 | mineral |  | **GREEN ZIRCON** |  || 171 |
-| mineral |  | **GREEN JADE** |  || 171 |
+| mineral |  | **GREEN JADE** |  || 137 |
 | mineral |  | **HELIODOR** |  || 171 |
 | mineral |  | **PERIDOT** |  || 171 |
 | mineral |  | **RED ZIRCON** |  || 171 |
