@@ -198,52 +198,52 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | oxide | **QUARTZ_ROSE** | rarely crystalline but translucent | pale pink | 169 |
 | mineral | oxide | **CRYSTAL_ROCK** | sharp pointed crystals | colorless | 169 |
 | mineral | nesosilicate | **BLACK ZIRCON** | tetragonal or pyramid-tipped | opaque black | 169 |
-| mineral | nesosilicate | **BLACK PYROPE** | multifaceted round gems in matrix | dark red or black | 172 |
+| mineral | nesosilicate | **BLACK PYROPE**<sup>18</sup> | multifaceted round gems in matrix | dark red or black | 172 |
 | mineral | nesosilicate | **MELANITE** | multifaceted round gems in matrix | olive green | 172 |
 | mineral | cyclosilicate | **INDIGO TOURMALINE** | trigonal bars with flat terminations | deep blue or teal | 140 |
-| mineral | nesosilicate | **BLUE GARNET** | multifaceted round gems in matrix | dark to pale blue | 172 |
-| mineral | nesosilicate | **TSAVORITE** | multifaceted round gems in matrix | intensely green | 172 |
+| mineral | nesosilicate | **BLUE GARNET**<sup>17</sup><sup>18</sup> | multifaceted round gems in matrix | dark to pale blue | 172 |
+| mineral | nesosilicate | **TSAVORITE**<sup>18</sup> | multifaceted round gems in matrix | intensely green | 172 |
 | mineral | cyclosilicate | **GREEN TOURMALINE** | trigonal bars with flat terminations | olive to bright green | 140 |
-| mineral | nesosilicate | **DEMANTOID** | multifaceted round gems in matrix | intensely green | 172 |
+| mineral | nesosilicate | **DEMANTOID**<sup>18</sup> | multifaceted round gems in matrix | intensely green | 172 |
 | mineral | nesosilicate | **GREEN ZIRCON** | tetragonal or pyramid-tipped | greenish | 169 |
-| mineral |  | **GREEN JADE** |  || 137 |
-| mineral |  | **HELIODOR** |  || 171 |
-| mineral |  | **PERIDOT** |  || 171 |
+| rock | metamorphic | **GREEN JADE** | faint mottling or striations | pale to dark green | 136 |
+| mineral | cyclosilicate | **HELIODOR** | long flat-ended hexagonal crystals | greenish yellow | 171 |
+| mineral | silicate | **PERIDOT**<sup>10</sup> | indistinct crystalline structure, often massive | yellowish green | 140 |
 | mineral | nesosilicate | tetragonal or pyramid-tipped | deep red | 169 |
 | mineral | cyclosilicate | **RED TOURMALINE** | trigonal bars with flat terminations | red | 140 |
-| mineral | nesosilicate | **RED PYROPE** | multifaceted round gems in matrix | blood red | 172 |
-| mineral | nesosilicate | **ALMANDINE** | multifaceted round gems in matrix | dark red to orange | 172 |
-| mineral | nesosilicate | **RED GROSSULAR** | multifaceted round gems in matrix | dark red to orange | 172 |
+| mineral | nesosilicate | **RED PYROPE**<sup>18</sup> | multifaceted round gems in matrix | blood red | 172 |
+| mineral | nesosilicate | **ALMANDINE**<sup>18</sup> | multifaceted round gems in matrix | dark red to orange | 172 |
+| mineral | nesosilicate | **RED GROSSULAR**<sup>18</sup> | multifaceted round gems in matrix | dark red to orange | 172 |
 | mineral | cyclosilicate | **PINK TOURMALINE** | trigonal bars with flat terminations | pink | 140 |
-| mineral |  | **RED BERYL** |  || 171 |
-| mineral | oxide | **FIRE OPAL** |  || 171 |
-| mineral |  | **RHODOLITE** |  || 171 |
-| mineral |  | **SPINEL_PURPLE** |  || 171 |
-| mineral |  | **ALEXANDRITE** |  || 171 |
-| mineral |  | **TANZANITE** |  || 171 |
-| mineral |  | **MORGANITE** |  || 171 |
-| mineral |  | **VIOLET SPESSARTINE** |  || 171 |
-| mineral |  | **PINK GARNET** |  || 172 |
-| mineral |  | **KUNZITE** |  || 171 |
-| mineral |  | **CINNAMON GROSSULAR** |  || 172 |
-| mineral |  | **HONEY YELLOW BERYL** |  || 171 |
-| mineral | oxide | **JELLY OPAL** |  || 136 |
+| mineral | cyclosilicate | **RED BERYL** | long flat-ended hexagonal crystals | red | 171 |
+| mineral | oxide | **FIRE OPAL** | soft tones with occasional flash | reddish with green or blue | 136 |
+| mineral | nesosilicate | **RHODOLITE**<sup>18</sup> | multifaceted round gems in matrix | dark red | 172 |
+| mineral | oxide | **SPINEL_PURPLE** | semi-translucent with octahedral habits | blue or purplish | 169 |
+| mineral | oxide | **ALEXANDRITE**<sup>19</sup> | various opacity with 6-sided star shape | shifting between green and red | 169 |
+| mineral | sorosilicate | **TANZANITE** | shafts with arched terminations | deep blue to indigo | 140 |
+| mineral | cyclosilicate | **MORGANITE** | long flat-ended hexagonal crystals | orange to pale pink | 171 |
+| mineral | nesosilicate | **VIOLET SPESSARTINE**<sup>18</sup> | multifaceted round gems in matrix | golden to pale yellow | 172 |
+| mineral | nesosilicate | **PINK GARNET**<sup>18</sup> | multifaceted round gems in matrix | light red | 172 |
+| mineral | inosilicate | **KUNZITE** | straight bars with angular terminations | pinkish | 140 |
+| mineral | nesosilicate | **CINNAMON GROSSULAR**<sup>18</sup> | multifaceted round gems in matrix | red to orange | 172 |
+| mineral | cyclosilicate | **HONEY YELLOW BERYL** | long flat-ended hexagonal crystals | yellow | 171 |
+| mineral | oxide | **JELLY OPAL** | mottled subtle tones with bright flash | grayish with green | 136 |
 | mineral | nesosilicate | **BROWN ZIRCON** | tetragonal or pyramid-tipped | dark brown to golden | 169 |
 | mineral | nesosilicate | **YELLOW ZIRCON** | tetragonal or pyramid-tipped | bright to pale yellow | 169 |
-| mineral |  | **GOLDEN BERYL** |  || 171 |
-| mineral |  | **YELLOW SPESSARTINE** |  || 171 |
-| mineral |  | **TOPAZ** |  || 171 |
-| mineral |  | **TOPAZOLITE** |  || 171 |
-| mineral |  | **YELLOW GROSSULAR** |  || 172 |
+| mineral | cyclosilicate | **GOLDEN BERYL** | long flat-ended hexagonal crystals | yellow | 171 |
+| mineral | nesosilicate | **YELLOW SPESSARTINE**<sup>18</sup> | multifaceted round gems in matrix | golden to pale yellow | 172 |
+| mineral | silicate | **TOPAZ** | long prismatic crystals | peach to pale yellow with rare blues | 140 |
+| mineral | nesosilicate | **TOPAZOLITE**<sup>18</sup> | translucent round crystals with diamond facets | brown or dark yellow | 172 |
+| mineral | nesosilicate | **YELLOW GROSSULAR**<sup>18</sup> | multifaceted round gems in matrix | golden to pale yellow | 172 |
 | mineral |  | **RUBICELLE** |  || 171 |
-| mineral |  | **CLEAR GARNET** |  || 172 |
+| mineral |  | **CLEAR GARNET**<sup>18</sup> |  || 172 |
 | mineral |  | **GOSHENITE** |  || 171 |
 | mineral |  | **CAT'S EYE** |  || 171 |
 | mineral | nesosilicate | **CLEAR ZIRCON** | tetragonal or pyramid-tipped | colorless | 169 |
 | mineral | oxide | **AMETHYST** |  || 169 |
-| mineral |  | **AQUAMARINE** |  || 171 |
-| mineral |  | **SPINEL_RED** |  || 171 |
-| mineral |  | **CHRYSOBERYL** |  || 171 |
+| mineral | cyclosilicate | **AQUAMARINE** | long flat-ended hexagonal crystals | pale blue | 171 |
+| mineral | oxide | **SPINEL_RED** | semi-translucent with octahedral habits | red | 169 |
+| mineral |  | **CHRYSOBERYL**<sup>19</sup> | various opacity with 6-sided star shape | yellowish or greenish | 169 |
 | mineral | oxide | **OPAL_PFIRE** |  || 136 |
 | mineral | oxide | **OPAL_REDFLASH** |  || 136 |
 | mineral | oxide | **OPAL_BLACK** |  || 136 |
@@ -256,7 +256,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | oxide | **OPAL_BANDFIRE** |  || 136 |
 | mineral |  | **DIAMOND_LY** |  || 171 |
 | mineral |  | **DIAMOND_FY** |  || 171 |
-| mineral |  | **EMERALD** |  || 171 |
+| mineral | cyclosilicate | **EMERALD** | long flat-ended hexagonal crystals | pale to dark green | 171 |
 | mineral |  | **RUBY** |  || 171 |
 | mineral |  | **SAPPHIRE** |  || 171 |
 | mineral |  | **DIAMOND_CLEAR** |  || 171 |
@@ -292,5 +292,8 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 12. Serpentine is not any one mineral, but a grouping of similar minerals with similar qualities.
 13. Alabaster is a common name for any of three minerals derived from calcite or gypsum, but is not a mineral itself.
 14. Selenite is just another name for gypsum, which is already included in the raws.  Satinspar is ALSO the same thing as both selenite and gypsum.  Only difference in each is shape.
-15. Morion and Smokey Quartz are just slight different shades of the same thing
+15. Morion and Smokey Quartz are just slight different shades of the same thing.
 16. Sard and Carnelian are the same mineral.
+17. Blue Garnet is exceptionally rare and should be worth more.
+18. All are garnets; Differences between spessartines, grossulars, and pyropes is largely only in refractive indexes, but are the same mineral with mostly the same colors.
+19. It should be noted that Alexandrite is a variety of Chrysoberyl
