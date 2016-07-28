@@ -30,12 +30,10 @@ See: https://en.wikipedia.org/wiki/Rock_(geology) for typical rock types and tex
 * 135 - Mostly Igneous Extrusive Rock; **Small to Invisible Grains**
 * 136 - Mostly Metamorphic Rock; **Distorted Bands or Squished Blotches**
 * 137 - Mostly Sedimentary Rock; **Layers or Lines, Subtle or Strong**
-
 * 139 - Mostly Minerals; **Rounded forms**
 * 140 - Mostly Minerals; **Columnar facets**
 * 141 - Mostly Minerals; **Veins**
 * 142 - Mostly Minerals; **Striations or Platings**
-
 * 169 - Mostly Gems; **Triangular Facets**
 * 170 - Mostly Gems; **Square Facets**
 * 171 - Mostly Gems; **Hexagonal Facets**
@@ -147,10 +145,10 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | rock | metamorphic | **BLUE JADE** | subtle banding | light blue, cyan | 136 |
 | rock | metamorphic | **LAPIS LAZULI** | grainy or banded textures | dark blue | 137 |
 | mineral | oxide | **PRASE** | mottled or banded | dark to light green | 141 |
-| mineral | oxide | **PRASE OPAL** | mottled or banded | dark to light green | 136 |
+| mineral | oxide | **PRASE OPAL** | semi-translucent with reflective mottling | dark to light green | 136 |
 | mineral | silicate | **BLOODSTONE** | highly mottled | green and red | 134 |
 | mineral | oxide | **MOSS AGATE** | heavily banded | dark green | 136 |
-| mineral | oxide | **MOSS OPAL** | monotone with dendritic splotches | cream with dark brown markings | 141 |
+| mineral | oxide | **MOSS OPAL** | semi-translucent with reflective mottling | cream with dark brown markings | 141 |
 | mineral | phosphate | **VARISCITE** | bulbous or massive with banding | dark to middle green | 139 |
 | mineral | silicate | **CHRYSOPRASE** | solid tones with dark rings or bands | middle green with black | 141 |
 | mineral | silicate | **CHRYSOCOLLA** | bulbous or amorphous | teal or green with flowing bands | 139 |
@@ -158,7 +156,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | silicate | **CARNELIAN**<sup>16</sup> | subtle mottling or banding | dark red | 139 |
 | mineral | oxide | **BANDED AGATE** | heavily banded | warm tones, whites, reds | 136 |
 | mineral | silicate | **SARDONYX** | heavy banded | dark red with creamy bands | 136 |
-| mineral | oxide | **CHERRY OPAL** | little texture, fairly translucent | red | 136 |
+| mineral | oxide | **CHERRY OPAL** | semi-translucent with reflective mottling | red | 136 |
 | rock | metamorphic | **LAVENDER JADE** | faint mottling or striations | purple and green | 137 |
 | rock | metamorphic | **PINK JADE** | faint mottling or striations | distinctly pink | 137 |
 | mineral | oxide | **TUBE AGATE** | heavily circular banding | creams and reds | 136 |
@@ -167,10 +165,10 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | oxide | **BROWN JASPER** | fairly uniform tones | brown to purple | 135 |
 | mineral | oxide | **PICTURE JASPER** | strong mottling | browns, whites | 141 |
 | mineral | oxide | **SMOKY QUARTZ** | milky to translucent with sharp terminations | light grey to brown | 169 |
-| mineral | oxide | **WAX OPAL** | subtle mottling if any, semi-translucent | pale yellows | 136 |
-| mineral | oxide | **WOOD OPAL** | ringlike striations with sharp coloration | browns and blues | 136 |
-| mineral | oxide | **AMBER OPAL** | subtle mottling, semi-translucent | reds and golds | 136 |
-| mineral | oxide | **GOLD OPAL** | subtle mottling, semi-translucent | yellows | 136 |
+| mineral | oxide | **WAX OPAL** | semi-translucent with reflective mottling | pale yellows | 136 |
+| mineral | oxide | **WOOD OPAL** | semi-translucent with reflective mottling | browns and blues | 136 |
+| mineral | oxide | **AMBER OPAL** | semi-translucent with reflective mottling | reds and golds | 136 |
+| mineral | oxide | **GOLD OPAL** | semi-translucent with reflective mottling | yellows | 136 |
 | mineral | oxide | **CITRINE** | milky to translucent with sharp terminations | dark brown to gold | 169 |
 | mineral | oxide | **YELLOW JASPER** | modest mottling and banding | golden yellow | 135 |
 | mineral | silicate | **TIGEREYE** | strong reflective banding | browns and golds | 141 |
@@ -191,7 +189,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | oxide | **JASPER OPAL** | opaque with dark mottling | reds and whites | 136 |
 | mineral | oxide | **PINEAPPLE OPAL** | opal-replaced quartz clusters | cream with green | 171 |
 | mineral | oxide | **ONYX OPAL** | opal with opaque black skin | black | 136 |
-| mineral | oxide | **MILK OPAL** | opaque with pale flash | cream to white | 136 |
+| mineral | oxide | **MILK OPAL** | semi-translucent with reflective mottling | cream to white | 136 |
 | mineral | oxide | **PIPE OPAL** | opal that forms like stalactites | cream with green flash | 136 |
 | mineral | oxide | **AVENTURINE** | quartz given shimmery texture by inclusions | greenish | 135 |
 | mineral | phosphate | **TURQUOISE** | bulbous or amorphous | blue-to-green | 139 |
@@ -209,7 +207,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | rock | metamorphic | **GREEN JADE** | faint mottling or striations | pale to dark green | 136 |
 | mineral | cyclosilicate | **HELIODOR** | long flat-ended hexagonal crystals | greenish yellow | 171 |
 | mineral | silicate | **PERIDOT**<sup>10</sup> | indistinct crystalline structure, often massive | yellowish green | 140 |
-| mineral | nesosilicate | tetragonal or pyramid-tipped | deep red | 169 |
+| mineral | nesosilicate | **RED ZIRCON** | tetragonal or pyramid-tipped | deep red | 169 |
 | mineral | cyclosilicate | **RED TOURMALINE** | trigonal bars with flat terminations | red | 140 |
 | mineral | nesosilicate | **RED PYROPE**<sup>18</sup> | multifaceted round gems in matrix | blood red | 172 |
 | mineral | nesosilicate | **ALMANDINE**<sup>18</sup> | multifaceted round gems in matrix | dark red to orange | 172 |
@@ -235,25 +233,25 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | silicate | **TOPAZ** | long prismatic crystals | peach to pale yellow with rare blues | 140 |
 | mineral | nesosilicate | **TOPAZOLITE**<sup>18</sup> | translucent round crystals with diamond facets | brown or dark yellow | 172 |
 | mineral | nesosilicate | **YELLOW GROSSULAR**<sup>18</sup> | multifaceted round gems in matrix | golden to pale yellow | 172 |
-| mineral |  | **RUBICELLE** |  || 171 |
-| mineral |  | **CLEAR GARNET**<sup>18</sup> |  || 172 |
-| mineral |  | **GOSHENITE** |  || 171 |
-| mineral |  | **CAT'S EYE** |  || 171 |
+| mineral | oxide | **RUBICELLE** | semi-translucent with octahedral habits | red or orange | 169 |
+| mineral | nesosilicate | **CLEAR GARNET**<sup>18</sup> | multifaceted round gems in matrix | colorless | 172 |
+| mineral | cyclosilicate | **GOSHENITE** | long flat-ended hexagonal crystals | colorless | 171 |
+| mineral | oxide | **CAT'S EYE**<sup>19</sup> | typically massive or amorphous | pale greenish | 142 |
 | mineral | nesosilicate | **CLEAR ZIRCON** | tetragonal or pyramid-tipped | colorless | 169 |
-| mineral | oxide | **AMETHYST** |  || 169 |
+| mineral | oxide | **AMETHYST** | hexagonal crystals with sharp terminations | dark to pale purple | 169 |
 | mineral | cyclosilicate | **AQUAMARINE** | long flat-ended hexagonal crystals | pale blue | 171 |
 | mineral | oxide | **SPINEL_RED** | semi-translucent with octahedral habits | red | 169 |
-| mineral |  | **CHRYSOBERYL**<sup>19</sup> | various opacity with 6-sided star shape | yellowish or greenish | 169 |
-| mineral | oxide | **OPAL_PFIRE** |  || 136 |
-| mineral | oxide | **OPAL_REDFLASH** |  || 136 |
-| mineral | oxide | **OPAL_BLACK** |  || 136 |
-| mineral | oxide | **OPAL_WHITE** |  || 136 |
-| mineral | oxide | **OPAL_CRYSTAL** |  || 136 |
-| mineral | oxide | **OPAL_CLARO** |  || 136 |
-| mineral | oxide | **OPAL_LEVIN** |  || 136 |
-| mineral | oxide | **OPAL_HARLEQUIN** |  || 136 |
-| mineral | oxide | **OPAL_PINFIRE]** |  || 136 |
-| mineral | oxide | **OPAL_BANDFIRE** |  || 136 |
+| mineral | oxide | **CHRYSOBERYL**<sup>19</sup> | various opacity with 6-sided star shape | yellowish or greenish | 169 |
+| mineral | oxide | **OPAL_PFIRE** | semi-translucent with reflective mottling | dark cyans or cream with green flash | 136 |
+| mineral | oxide | **OPAL_REDFLASH** | semi-translucent with reflective mottling | dark cyans or cream with red flash | 136 |
+| mineral | oxide | **OPAL_BLACK** | semi-translucent with reflective mottling | particularly dark with purple flash | 136 |
+| mineral | oxide | **OPAL_WHITE** | semi-translucent with reflective mottling | whitish with pastel flash | 136 |
+| mineral | oxide | **OPAL_CRYSTAL** | semi-translucent with reflective mottling | colorless with prismatic flash | 136 |
+| mineral | oxide | **OPAL_CLARO** | semi-translucent with reflective mottling | dark blues or greens with orange flash | 136 |
+| mineral | oxide | **OPAL_LEVIN** | semi-translucent with reflective mottling | cream with mostly green flash | 136 |
+| mineral | oxide | **OPAL_HARLEQUIN** | semi-translucent with reflective mottling | dark blue with mostly red flash | 136 |
+| mineral | oxide | **OPAL_PINFIRE** | semi-translucent with reflective mottling | dark cyans or cream with green flash | 136 |
+| mineral | oxide | **OPAL_BANDFIRE** | semi-translucent with reflective mottling | blue with blue flash | 136 |
 | mineral |  | **DIAMOND_LY** |  || 171 |
 | mineral |  | **DIAMOND_FY** |  || 171 |
 | mineral | cyclosilicate | **EMERALD** | long flat-ended hexagonal crystals | pale to dark green | 171 |
@@ -296,4 +294,4 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 16. Sard and Carnelian are the same mineral.
 17. Blue Garnet is exceptionally rare and should be worth more.
 18. All are garnets; Differences between spessartines, grossulars, and pyropes is largely only in refractive indexes, but are the same mineral with mostly the same colors.
-19. It should be noted that Alexandrite is a variety of Chrysoberyl
+19. It should be noted that Alexandrite and Cat's Eye are varieties of Chrysoberyl
