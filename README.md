@@ -199,7 +199,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | nesosilicate | **BLACK PYROPE**<sup>18</sup> | multifaceted round gems in matrix | dark red or black | 172 |
 | mineral | nesosilicate | **MELANITE** | multifaceted round gems in matrix | olive green | 172 |
 | mineral | cyclosilicate | **INDIGO TOURMALINE** | trigonal bars with flat terminations | deep blue or teal | 140 |
-| mineral | nesosilicate | **BLUE GARNET**<sup>17</sup><sup>18</sup> | multifaceted round gems in matrix | dark to pale blue | 172 |
+| mineral | nesosilicate | **BLUE GARNET**<sup>17,18</sup> | multifaceted round gems in matrix | dark to pale blue | 172 |
 | mineral | nesosilicate | **TSAVORITE**<sup>18</sup> | multifaceted round gems in matrix | intensely green | 172 |
 | mineral | cyclosilicate | **GREEN TOURMALINE** | trigonal bars with flat terminations | olive to bright green | 140 |
 | mineral | nesosilicate | **DEMANTOID**<sup>18</sup> | multifaceted round gems in matrix | intensely green | 172 |
@@ -252,19 +252,19 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | oxide | **OPAL_HARLEQUIN** | semi-translucent with reflective mottling | dark blue with mostly red flash | 136 |
 | mineral | oxide | **OPAL_PINFIRE** | semi-translucent with reflective mottling | dark cyans or cream with green flash | 136 |
 | mineral | oxide | **OPAL_BANDFIRE** | semi-translucent with reflective mottling | blue with blue flash | 136 |
-| mineral |  | **DIAMOND_LY** |  || 171 |
-| mineral |  | **DIAMOND_FY** |  || 171 |
+| element | metalloid | **DIAMOND_LY** | roughly octahedral and translucent | hint of yellow | 169 |
+| element | metalloid | **DIAMOND_FY** | roughly octahedral and translucent | hint of yellow | 169 |
 | mineral | cyclosilicate | **EMERALD** | long flat-ended hexagonal crystals | pale to dark green | 171 |
-| mineral |  | **RUBY** |  || 171 |
-| mineral |  | **SAPPHIRE** |  || 171 |
-| mineral |  | **DIAMOND_CLEAR** |  || 171 |
-| mineral |  | **DIAMOND_RED** |  || 171 |
-| mineral |  | **DIAMOND_GREEN** |  || 171 |
-| mineral |  | **DIAMOND_BLUE** |  || 171 |
-| mineral |  | **DIAMOND_YELLOW** |  || 171 |
-| mineral |  | **DIAMOND_BLACK** |  || 171 |
-| mineral |  | **SAPPHIRE_STAR** |  || 171 |
-| mineral |  | **RUBY_STAR** |  || 171 |
+| mineral | oxide | **RUBY** | tapered hexagonal faces, barrel-like | blood red | 140 |
+| mineral | oxide | **SAPPHIRE** | tapered hexagonal faces, barrel-like | dark blue | 140 |
+| element | metalloid | **DIAMOND_CLEAR** | roughly octahedral and translucent | hint of yellow | 169 |
+| element | metalloid | **DIAMOND_RED** | roughly octahedral and translucent | hint of red | 169 |
+| element | metalloid | **DIAMOND_GREEN** | roughly octahedral and translucent | hint of green | 169 |
+| element | metalloid | **DIAMOND_BLUE** | roughly octahedral and translucent | hint of blue | 169 |
+| element | metalloid | **DIAMOND_YELLOW** | roughly octahedral and translucent | hint of yellow | 169 |
+| element | metalloid | **DIAMOND_BLACK** | roughly octahedral and opaque | strongly black | 169 |
+| mineral | oxide | **SAPPHIRE_STAR**<sup>20</sup> | tapered hexagonal faces, barrel-like | blue with flash | 140 |
+| mineral | oxide | **RUBY_STAR** | tapered hexagonal faces, barrel-like | red with flash | 140 |
 
 ## Constructions (Walls, Floors)
 
@@ -295,3 +295,4 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 17. Blue Garnet is exceptionally rare and should be worth more.
 18. All are garnets; Differences between spessartines, grossulars, and pyropes is largely only in refractive indexes, but are the same mineral with mostly the same colors.
 19. It should be noted that Alexandrite and Cat's Eye are varieties of Chrysoberyl
+20. Technically, Sapphire can come in a variety of colors
