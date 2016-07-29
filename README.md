@@ -139,7 +139,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | Type | Subtype | Name | Habit | Colors | Tile |
 | --- | --- | --- | --- | --- | --- |
 | mineral | oxide | **ONYX** | parallel light bands against dark | black or red | 137 |
-| mineral | oxide | **MORION**<sup>15</sup> | sharp facets, mostly opaque | black | 140 |
+| mineral | oxide | **MORION**<sup>15</sup> | sharp facets, mostly opaque | black | 169 |
 | mineral | silicate | **SHORL** | faceted or striated columns | black | 140 |
 | mineral | oxide | **LACE AGATE** | heavily banded | light shades, often blue | 136 |
 | rock | metamorphic | **BLUE JADE** | subtle banding | light blue, cyan | 136 |
@@ -185,7 +185,7 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | mineral | oxide | **FORTIFICATION AGATE** | heavily banded | creams and reds | 136 |
 | mineral | oxide | **MILK QUARTZ** | barely translucent with sharp faces | white | 169 |
 | mineral | silicate | **MOONSTONE** | triclinic faces with bluish refraction | white or grey | 170 |
-| rock | metamorphic | **WHITE JADE** | faint mottling or striations || 136 |
+| rock | metamorphic | **WHITE JADE** | faint mottling or striations | white or grey | 136 |
 | mineral | oxide | **JASPER OPAL** | opaque with dark mottling | reds and whites | 136 |
 | mineral | oxide | **PINEAPPLE OPAL** | opal-replaced quartz clusters | cream with green | 171 |
 | mineral | oxide | **ONYX OPAL** | opal with opaque black skin | black | 136 |
@@ -256,14 +256,14 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 | element | metalloid | **DIAMOND_FY** | roughly octahedral and translucent | hint of yellow | 169 |
 | mineral | cyclosilicate | **EMERALD** | long flat-ended hexagonal crystals | pale to dark green | 171 |
 | mineral | oxide | **RUBY** | tapered hexagonal faces, barrel-like | blood red | 140 |
-| mineral | oxide | **SAPPHIRE** | tapered hexagonal faces, barrel-like | dark blue | 140 |
+| mineral | oxide | **SAPPHIRE**<sup>20</sup> | tapered hexagonal faces, barrel-like | dark blue | 140 |
 | element | metalloid | **DIAMOND_CLEAR** | roughly octahedral and translucent | hint of yellow | 169 |
 | element | metalloid | **DIAMOND_RED** | roughly octahedral and translucent | hint of red | 169 |
 | element | metalloid | **DIAMOND_GREEN** | roughly octahedral and translucent | hint of green | 169 |
 | element | metalloid | **DIAMOND_BLUE** | roughly octahedral and translucent | hint of blue | 169 |
 | element | metalloid | **DIAMOND_YELLOW** | roughly octahedral and translucent | hint of yellow | 169 |
 | element | metalloid | **DIAMOND_BLACK** | roughly octahedral and opaque | strongly black | 169 |
-| mineral | oxide | **SAPPHIRE_STAR**<sup>20</sup> | tapered hexagonal faces, barrel-like | blue with flash | 140 |
+| mineral | oxide | **SAPPHIRE_STAR** | tapered hexagonal faces, barrel-like | blue with flash | 140 |
 | mineral | oxide | **RUBY_STAR** | tapered hexagonal faces, barrel-like | red with flash | 140 |
 
 ## Constructions (Walls, Floors)
@@ -295,4 +295,4 @@ To be fair, most all of these gems are minerals, often identical to some of the 
 17. Blue Garnet is exceptionally rare and should be worth more.
 18. All are garnets; Differences between spessartines, grossulars, and pyropes is largely only in refractive indexes, but are the same mineral with mostly the same colors.
 19. It should be noted that Alexandrite and Cat's Eye are varieties of Chrysoberyl
-20. Technically, Sapphire can come in a variety of colors
+20. Technically, Sapphire can come in a variety of colors.
